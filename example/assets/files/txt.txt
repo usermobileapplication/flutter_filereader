@@ -1,7 +1,7 @@
 # Flutter FileReader
 [![pub package](https://img.shields.io/pub/v/flutter_filereader.svg)](https://pub.dartlang.org/packages/flutter_filereader)
 
-##### Ò»¸ö±¾µØÎÄ¼şä¯ÀÀµÄ¹¤¾ß,Android¶ËÊ¹ÓÃÌÚÑ¶x5ä¯ÀÀÆ÷ÊµÏÖ,iOS¶ËÊ¹ÓÃWKWebViewÊµÏÖ
+##### Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½Ä¹ï¿½ï¿½ï¿½,Androidï¿½ï¿½Ê¹ï¿½ï¿½ï¿½ï¿½Ñ¶x5ï¿½ï¿½ï¿½ï¿½ï¿½Êµï¿½ï¿½,iOSï¿½ï¿½Ê¹ï¿½ï¿½WKWebViewÊµï¿½ï¿½
 ## Usage
 
 
@@ -30,7 +30,7 @@ class _FileReaderPageState extends State<FileReaderPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("ÎÄµµ"),
+        title: Text("ï¿½Äµï¿½"),
       ),
       body: FileReaderView(
         filePath: widget.filePath,
@@ -38,12 +38,4 @@ class _FileReaderPageState extends State<FileReaderPage> {
     );
   }
 }
-```
-
-
-## ×¢ÒâÊÂÏî
-
-1. Android¶Ë²»Ö§³Öx86ºÍ64Î»arm(x5²»Ö§³Ö),½â¾ö°ì·¨²Î¿¼[x5ÈçºÎÖ§³Ö64Î»ÊÖ»ú](https://x5.tencent.com/tbs/technical.html#/detail/sdk/1/34cf1488-7dc2-41ca-a77f-0014112bcab7 "x5ÈçºÎÖ§³Ö64Î»ÊÖ»ú")
-2. ÒòÎªÎÊÌâ1,ËùÒÔÔÚdebugÄ£Ê½ÏÂ,64Î»»úÆ÷»áÏÔÊ¾x5ÄÚºË¼ÓÔØ²»³É¹¦¡£Ö÷ÒªÊÇdebugÄ£Ê½ÏÂ,FlutterÒıÇæ»á¸ù¾İÁ¬½ÓµÄ»úÆ÷´òÈë¶ÔÓ¦µÄ¿â,Ò»µ«°üº¬ÓĞarmv8-a,ÔòÎŞ·¨¼ÓÔØx5ÄÚºËËùĞèµÄso¿â
-
 
